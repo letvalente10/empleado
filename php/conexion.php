@@ -1,11 +1,11 @@
 <?php 
 
-$conexion = mysqli_connect("localhost", "root","", "quiz","3306");
+$conexion = mysqli_connect("localhost", "root","    ", "quiz","3306");
 
 //ver si la conexion es correcta
 if(mysqli_connect_errno()){
    
-    echo "la conexion a la base de datos mysql ha fallado:" .mysqli_connect_error();
+    echo "la conexion a la base de datos mysql ha fallado y no puede abrir :" .mysqli_connect_error();
 
 }
 else{ 
